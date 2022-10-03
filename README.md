@@ -5,4 +5,4 @@
     <a href="https://tayrone-tf.github.io/Unifica/home-teste01">Teste Layout teste 01. </a>
 
 Teste 02 - Foi utilizado o display flex.
-    <a href="https://tayrone-tf.github.io/Unifica/home-teste02">Teste Layout teste 01. </a>
+    <a href="https://tayrone-tf.github.io/Unifica/home-teste02">Teste Layout teste 02. </a>
