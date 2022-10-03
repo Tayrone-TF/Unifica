@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style-teste02.css">
+    <title>Ajuda | Unifica</title>
+    
+</head>
+<body>
+    
+    <div class="container">
+
+        <aside>
+
+            <div class="logo">
+                <img src="img/logo-unifica.png" alt="logo unifica">
+            </div>
+
+            <nav class="container-link-aside">
+                <ul>
+                    <a class="container-link-aside"href="#" onclick="openSubitem('menu-dashboard-inicio')">
+                        <li>Início</li>
+                    </a>
+                    <a href="#" onclick="openSubitem('menu-dashboard-gestao-empresas')">
+                        <li>Gestão de Empresas ></li>
+
+                        <ul class="subitens" id="menu-dashboard-gestao-empresas">
+                            <a href="#">
+                                <li class="sub-internos">Cadastro de Empresas</li>
+                            </a>
+                            <a href="#">
+                                <li class="sub-internos">Grupo de Visibilidade</li>
+                            </a>
+                            <a href="#">
+                                <li class="sub-internos">Grupo de G.H.</li>
+                            </a>
+                            <a href="#">
+                                <li class="sub-internos">Grupo de Notícias</li>
+                            </a>
+                            <a href="#">
+                                <li class="sub-internos">Grupo de Docs. Internos</li>
+                            </a>
+                            <a href="#">
+                                <li class="sub-internos">Grupo de Telas</li>
+                            </a>
+                            <a href="#">
+                                <li class="sub-internos">Tabela de Países</li>
+                            </a>
+
+                        </ul>
+                    </a>
+
+                    <a href="#" onclick="openSubitem('menu-dashboard-contratos')">
+                        <li>Contratos ></li>
+                        <ul class="subitens" id="menu-dashboard-contratos">
+                            <a href="#">
+                                <li class="sub-internos">Grupo de Contratos</li>
+                            </a>
+                            <a href="#">
+                                <li class="sub-internos">Relatório de Cobraça</li>
+                            </a>
+                        </ul>
+                    </a>
+
+                    <a href="#" onclick="openSubitem('menu-dashboard-gestao-usuarios')">
+                        <li>Gestão de Usuários ></li>
+                        <ul class="subitens" id="menu-dashboard-gestao-usuarios">
+                            <a href="#">
+                                <li class="sub-internos">Cadastro de Usuários</li>
+                            </a>
+                            <a href="#">
+                                <li class="sub-internos">Permissões do Usuário</li>
+                            </a>
+                            <a href="#">
+                                <li class="sub-internos">Redefinição de Senha</li>
+                            </a>
+                            <a href="#">
+                                <li class="sub-internos">Grupo de Telas</li>
+                            </a>
+                        </ul>
+                    </a>
+
+                    <a href="#" onclick="openSubitem('menu-dashboard-configuracoes-unidp')">
+                        <li>Configurações UniDP ></li>
+                        <ul class="subitens" id="menu-dashboard-configuracoes-unidp">
+                            <a href="#">
+                                <li class="sub-internos">Checklist Personalizado</li>
+                            </a>
+                            <a href="#">
+                                <li class="sub-internos">Parâmetros DP</li>
+                            </a>
+                            <a href="#">
+                                <li class="sub-internos">Grupos de Rubricas</li>
+                            </a>
+                            <a href="#">
+                                <li class="sub-internos">Parâmetros de Ponto</li>
+                            </a>
+                            <a href="#">
+                                <li class="sub-internos">Grupos de Rubricas H.</li>
+                            </a>
+                            <a href="#">
+                                <li class="sub-internos">Gestão de Rubricas</li>
+                            </a>
+                        </ul>
+                    </a>
+
+                    <a href="#" onclick="openSubitem('menu-dashboard-sistema')">
+                        <li>Sistema ></li>
+                        <ul class="subitens" id="menu-dashboard-sistema">
+                            <a href="#">
+                                <li class="sub-internos">Teste WebService</li>
+                            </a>
+                            <a href="#">
+                                <li class="sub-internos">Integrador Manual</li>
+                            </a>
+                            <a href="#">
+                                <li class="sub-internos">Relatórios</li>
+                            </a>
+                            <a href="#">
+                                <li class="sub-internos">Cadastro de Telas</li>
+                            </a>
+                            <a href="#">
+                                <li class="sub-internos">Notificações</li>
+                            </a>
+                        </ul>
+                    </a>
+
+                    <a href="#" onclick="openSubitem('menu-dashboard-sugestoes')">
+                        <li>Sugestões</li>
+                    </a>
+
+                    <a href="#" onclick="openSubitem('menu-dashboard-lgpd')">
+                        <li>LGPD ></li>
+                        <ul class="subitens" id="menu-dashboard-lgpd">
+                            <a href="#">
+                                <li class="sub-internos">Sobre LGPD</li>
+                            </a>
+                            <a href="#">
+                                <li class="sub-internos">DPO - Configurações</li>
+                            </a>
+                            <a href="#">
+                                <li class="sub-internos">DPO - Consultar Dados</li>
+                            </a>
+                            <a href="#">
+                                <li class="sub-internos">DPO - Fila de Pedidos</li>
+                            </a>
+                            <a href="#">
+                                <li class="sub-internos">Gestão dos Meus Dados</li>
+                            </a>
+                        </ul>
+                    </a>
+
+                    <a href="#" onclick="openSubitem('menu-dashboard-versoes')">
+                        <li>Consulta Versões</li>
+                    </a>
+
+                </ul>
+            </nav>
+
+        </aside>
+
+        <div class="content">
+
+            <header>
+                <div>
+                    <button>Botao</button>
+                </div>
+                <div class="container-action-header">
+                    <select name="" id="">
+                        <option value="">Início</option>
+                        <option value="">Gestão de Empresas</option>
+                        <option value="">Contratos</option>
+                        <option value="">Gestão de Usuários</option>
+                        <option value="">Configurações UniDP</option>
+                        <option value="">Sistema</option>
+                        <option value="">Sugestões</option>
+                        <option value="">LGPD</option>
+                        <option value="">Consulta Versões</option>
+                    </select>
+                    
+                        <div class="user-circle"></div>
+                        <div class="user-aniversary"></div>
+                        <span>Tayrone Teixeira de Freitas</span>
+
+                </div>
+            </header>
+
+            <main>
+                    <h1>PAINEL DE AJUDA AO USUÁRIO</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid natus officiis rem reiciendis ipsa nam! Dolore aliquam aperiam, doloribus libero sequi sunt nostrum eaque corporis dolor, maiores itaque velit? Alias? Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit tempora ipsa tenetur, esse cumque autem modi illum ratione ducimus repellendus natus, harum quia temporibus vel aut eos expedita, laudantium a! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quos commodi, consequuntur numquam ex quia provident est rerum repellat eligendi velit ea. Ducimus, eos odit? Explicabo eveniet doloribus totam minus.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid natus officiis rem reiciendis ipsa nam! Dolore aliquam aperiam, doloribus libero sequi sunt nostrum eaque corporis dolor, maiores itaque velit? Alias? Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit tempora ipsa tenetur, esse cumque autem modi illum ratione ducimus repellendus natus, harum quia temporibus vel aut eos expedita, laudantium a! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quos commodi, consequuntur numquam ex quia provident est rerum repellat eligendi velit ea. Ducimus, eos odit? Explicabo eveniet doloribus totam minus.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid natus officiis rem reiciendis ipsa nam! Dolore aliquam aperiam, doloribus libero sequi sunt nostrum eaque corporis dolor, maiores itaque velit? Alias? Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit tempora ipsa tenetur, esse cumque autem modi illum ratione ducimus repellendus natus, harum quia temporibus vel aut eos expedita, laudantium a! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quos commodi, consequuntur numquam ex quia provident est rerum repellat eligendi velit ea. Ducimus, eos odit? Explicabo eveniet doloribus totam minus.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid natus officiis rem reiciendis ipsa nam! Dolore aliquam aperiam, doloribus libero sequi sunt nostrum eaque corporis dolor, maiores itaque velit? Alias? Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit tempora ipsa tenetur, esse cumque autem modi illum ratione ducimus repellendus natus, harum quia temporibus vel aut eos expedita, laudantium a! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quos commodi, consequuntur numquam ex quia provident est rerum repellat eligendi velit ea. Ducimus, eos odit? Explicabo eveniet doloribus totam minus.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid natus officiis rem reiciendis ipsa nam! Dolore aliquam aperiam, doloribus libero sequi sunt nostrum eaque corporis dolor, maiores itaque velit? Alias? Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit tempora ipsa tenetur, esse cumque autem modi illum ratione ducimus repellendus natus, harum quia temporibus vel aut eos expedita, laudantium a! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quos commodi, consequuntur numquam ex quia provident est rerum repellat eligendi velit ea. Ducimus, eos odit? Explicabo eveniet doloribus totam minus.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid natus officiis rem reiciendis ipsa nam! Dolore aliquam aperiam, doloribus libero sequi sunt nostrum eaque corporis dolor, maiores itaque velit? Alias? Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit tempora ipsa tenetur, esse cumque autem modi illum ratione ducimus repellendus natus, harum quia temporibus vel aut eos expedita, laudantium a! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quos commodi, consequuntur numquam ex quia provident est rerum repellat eligendi velit ea. Ducimus, eos odit? Explicabo eveniet doloribus totam minus.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid natus officiis rem reiciendis ipsa nam! Dolore aliquam aperiam, doloribus libero sequi sunt nostrum eaque corporis dolor, maiores itaque velit? Alias? Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit tempora ipsa tenetur, esse cumque autem modi illum ratione ducimus repellendus natus, harum quia temporibus vel aut eos expedita, laudantium a! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quos commodi, consequuntur numquam ex quia provident est rerum repellat eligendi velit ea. Ducimus, eos odit? Explicabo eveniet doloribus totam minus.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid natus officiis rem reiciendis ipsa nam! Dolore aliquam aperiam, doloribus libero sequi sunt nostrum eaque corporis dolor, maiores itaque velit? Alias? Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit tempora ipsa tenetur, esse cumque autem modi illum ratione ducimus repellendus natus, harum quia temporibus vel aut eos expedita, laudantium a! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quos commodi, consequuntur numquam ex quia provident est rerum repellat eligendi velit ea. Ducimus, eos odit? Explicabo eveniet doloribus totam minus.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid natus officiis rem reiciendis ipsa nam! Dolore aliquam aperiam, doloribus libero sequi sunt nostrum eaque corporis dolor, maiores itaque velit? Alias? Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit tempora ipsa tenetur, esse cumque autem modi illum ratione ducimus repellendus natus, harum quia temporibus vel aut eos expedita, laudantium a! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quos commodi, consequuntur numquam ex quia provident est rerum repellat eligendi velit ea. Ducimus, eos odit? Explicabo eveniet doloribus totam minus.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid natus officiis rem reiciendis ipsa nam! Dolore aliquam aperiam, doloribus libero sequi sunt nostrum eaque corporis dolor, maiores itaque velit? Alias? Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit tempora ipsa tenetur, esse cumque autem modi illum ratione ducimus repellendus natus, harum quia temporibus vel aut eos expedita, laudantium a! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quos commodi, consequuntur numquam ex quia provident est rerum repellat eligendi velit ea. Ducimus, eos odit? Explicabo eveniet doloribus totam minus.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid natus officiis rem reiciendis ipsa nam! Dolore aliquam aperiam, doloribus libero sequi sunt nostrum eaque corporis dolor, maiores itaque velit? Alias? Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit tempora ipsa tenetur, esse cumque autem modi illum ratione ducimus repellendus natus, harum quia temporibus vel aut eos expedita, laudantium a! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quos commodi, consequuntur numquam ex quia provident est rerum repellat eligendi velit ea. Ducimus, eos odit? Explicabo eveniet doloribus totam minus.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid natus officiis rem reiciendis ipsa nam! Dolore aliquam aperiam, doloribus libero sequi sunt nostrum eaque corporis dolor, maiores itaque velit? Alias? Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit tempora ipsa tenetur, esse cumque autem modi illum ratione ducimus repellendus natus, harum quia temporibus vel aut eos expedita, laudantium a! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quos commodi, consequuntur numquam ex quia provident est rerum repellat eligendi velit ea. Ducimus, eos odit? Explicabo eveniet doloribus totam minus.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid natus officiis rem reiciendis ipsa nam! Dolore aliquam aperiam, doloribus libero sequi sunt nostrum eaque corporis dolor, maiores itaque velit? Alias? Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit tempora ipsa tenetur, esse cumque autem modi illum ratione ducimus repellendus natus, harum quia temporibus vel aut eos expedita, laudantium a! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quos commodi, consequuntur numquam ex quia provident est rerum repellat eligendi velit ea. Ducimus, eos odit? Explicabo eveniet doloribus totam minus.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid natus officiis rem reiciendis ipsa nam! Dolore aliquam aperiam, doloribus libero sequi sunt nostrum eaque corporis dolor, maiores itaque velit? Alias? Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit tempora ipsa tenetur, esse cumque autem modi illum ratione ducimus repellendus natus, harum quia temporibus vel aut eos expedita, laudantium a! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quos commodi, consequuntur numquam ex quia provident est rerum repellat eligendi velit ea. Ducimus, eos odit? Explicabo eveniet doloribus totam minus.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid natus officiis rem reiciendis ipsa nam! Dolore aliquam aperiam, doloribus libero sequi sunt nostrum eaque corporis dolor, maiores itaque velit? Alias? Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit tempora ipsa tenetur, esse cumque autem modi illum ratione ducimus repellendus natus, harum quia temporibus vel aut eos expedita, laudantium a! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quos commodi, consequuntur numquam ex quia provident est rerum repellat eligendi velit ea. Ducimus, eos odit? Explicabo eveniet doloribus totam minus.</p>         
+            </main>
+
+
+            <footer>
+                <p>Todos os direitos reservados a Plataforma UniFICA</p>
+            </footer>
+        </div>
+
+    </div>
+
+    <script>
+
+        function openSubitem(idElement){
+
+            let subitens = document.querySelectorAll('.subitens')
+
+            subitens.forEach((subitem) =>{
+                if(subitem.id != idElement){
+                    subitem.style.display = 'none'
+                }   
+            })
+            
+            let element = document.querySelector(`#${idElement}`)
+            if(element.style.display == "block"){
+                element.style.display = "none"
+            } else {
+                element.style.display = "block"
+            }
+        }
+
+    </script>
+</body>
+</html>
